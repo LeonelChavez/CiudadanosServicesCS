@@ -11,7 +11,7 @@ public interface INombrePropioRepository
 
     bool Create(NombrePropioEntity entity);
     bool Update(NombrePropioEntity entity);
-    void Delete(NombrePropioEntity entity);
+    bool Delete(NombrePropioEntity entity);
 
     bool Save();
 }
