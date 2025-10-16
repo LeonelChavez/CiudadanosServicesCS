@@ -10,6 +10,6 @@ namespace CiudadanosServicesCS.NombresPropios.Data
         {
         }
 
-        public DbSet<NombrePropioEntity> TB_NombresPropios { get; set; }
+        public DbSet<NombrePropioEntity> NombresPropios { get; set; }
     }
 }
