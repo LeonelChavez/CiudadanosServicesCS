@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CiudadanosServicesCS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b114f2d0bfd173e03276f4329f76fcb2b53019ee")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+98aedbf3fe883c605cc2b6e27aece775ebdd7188")]
 [assembly: System.Reflection.AssemblyProductAttribute("CiudadanosServicesCS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CiudadanosServicesCS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
