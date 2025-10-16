@@ -14,7 +14,7 @@ namespace CiudadanosServicesCS.NombresPropios.Models
         [Required]
         [Column("FcNombrePropio", TypeName = "varchar(60)")]
         [MaxLength(60)]
-        public string NombrePropio { get; set; } = null!;
+        public string NombrePropio { get; set; }  = string.Empty;
 
         [Required]
         [Column("FdFechaCreacion", TypeName = "datetime2(0)")]
@@ -22,6 +22,6 @@ namespace CiudadanosServicesCS.NombresPropios.Models
 
         [Required]
         [Column("FiUsuarioCreacion")]
-        public int UsuarioCreacion { get; set; }
+        public string UsuarioCreacion { get; set; } = string.Empty;
     }
 }
