@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CiudadanosServicesCS.NombresPropios.Models
 {
-    [Table("tb_NombresPropios", Schema = "Ciudadanos")]
+    [Table("TB_NombresPropios", Schema = "Ciudadanos")]
     public class NombrePropioEntity
     {
         [Key]
